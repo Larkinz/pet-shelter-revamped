@@ -1,0 +1,70 @@
+body {
+  min-height: 100vh;
+  background-color: #fffbeb;
+}
+
+/* --- COLOUR SCHEME GRID --- */
+.colour-scheme-grid {
+  height: 20vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.old-colour-scheme {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.new-colour-scheme {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.old-green {
+  background-color: #00da74;
+}
+
+.old-beige {
+  background-color: #f5f4e9;
+}
+
+.old-blue {
+  background-color: #1b233d;
+}
+
+.new-green {
+  background-color: #15803d;
+}
+
+.new-beige {
+  background-color: #fffbeb;
+}
+
+.new-blue {
+  background-color: #172554;
+}
+
+.old-green,
+.old-beige,
+.old-blue,
+.new-green,
+.new-beige,
+.new-blue {
+  transition: 1s ease-in 0.4s;
+}
+
+/* --- MAIN --- */
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 8rem 3.2rem 0 3.2rem;
+}
+
+main h1 {
+  align-self: center;
+  font-size: 4.4rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+  text-transform: uppercase;
+}

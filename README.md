@@ -83,9 +83,17 @@ This revamp was mainly done to test my improvements in HTML, CSS, and UI/UX desi
 
 #### Wireframes
 
+I've made a rough wireframe just to have a visual reminder of the new layout for the main page. To see the wireframe click [here](wireframes/main_layout.png).
+
 ### Surface
 
 #### Colours
+
+Improving on the previous colour scheme was necessary for better colour contrast. I've picked colours from the [Tailwind CSS colour palette](https://tailwindcss.com/docs/customizing-colors), making sure for the dark and light colours to have the required minimum contrast score of 4.5 using the [Coolors contrast checker](https://coolors.co/contrast-checker/fffbeb-15803d).
+
+The main colours I've chosen are: Green 700, Amber 50, and Blue 950.
+
+![Colour palette](wireframes/colour-palette.png)
 
 #### Typography
 

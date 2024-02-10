@@ -51,7 +51,7 @@ body {
 .new-green,
 .new-beige,
 .new-blue {
-  transition: 1s ease-in 0.4s;
+  transition: 1s ease-in 0.2s;
 }
 
 /* --- MAIN --- */
@@ -67,4 +67,36 @@ main h1 {
   line-height: 1.05;
   margin-bottom: 3.2rem;
   text-transform: uppercase;
+}
+
+main h2 {
+  align-self: center;
+  font-size: 3rem;
+  line-height: 1.05;
+  font-style: italic;
+  margin-bottom: 2.4rem;
+}
+
+.tags-container {
+  align-self: center;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: rgb(255, 255, 255);
+  padding: 0.6rem 1.2rem;
+  border-radius: 2000px;
+}
+
+.tag--html {
+  background-color: #f15b29;
+}
+.tag--css {
+  background-color: #1775bb;
 }

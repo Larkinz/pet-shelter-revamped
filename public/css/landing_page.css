@@ -9,11 +9,13 @@ body {
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  cursor: default;
 }
 
 .old-colour-scheme {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+  background-color: #f5f4e9;
 }
 
 .new-colour-scheme {
@@ -27,6 +29,12 @@ body {
 
 .old-beige {
   background-color: #f5f4e9;
+  color: #00da74;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
 }
 
 .old-blue {
@@ -39,6 +47,12 @@ body {
 
 .new-beige {
   background-color: #fffbeb;
+  color: #15803d;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
 }
 
 .new-blue {
@@ -58,6 +72,8 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  max-width: 130rem;
+  margin: 0 auto;
   padding: 8rem 3.2rem 0 3.2rem;
 }
 
@@ -77,10 +93,12 @@ main h2 {
   margin-bottom: 2.4rem;
 }
 
+/* TAGS */
 .tags-container {
   align-self: center;
   display: flex;
   gap: 1.6rem;
+  cursor: default;
 }
 
 .tag {
@@ -89,7 +107,7 @@ main h2 {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 0.5px;
-  color: rgb(255, 255, 255);
+  color: #fff;
   padding: 0.6rem 1.2rem;
   border-radius: 2000px;
 }
@@ -99,4 +117,85 @@ main h2 {
 }
 .tag--css {
   background-color: #1775bb;
+}
+
+/* LINKS GRID */
+.links-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 8rem;
+  justify-items: center;
+}
+
+.links-grid .btn--full {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.links-grid a span {
+  font-size: 2rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.original-project,
+.revamped-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* BTN */
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.btn--full {
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 1.2rem 2.4rem;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #15803d;
+  color: #fffbeb;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: rgba(21, 128, 60, 0.8);
+  transform: scale(1.04);
+}
+
+a.btn.btn--github {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 0.6rem 1.2rem;
+}
+
+.btn--github:link,
+.btn--github:visited {
+  background-color: #172554;
+  color: #fffbeb;
+}
+
+.btn--github:hover,
+.btn--github:active {
+  background-color: rgba(23, 37, 84, 0.8);
+  transform: scale(1.04);
+}
+
+.btn--github ion-icon {
+  margin-right: 0.4rem;
+  font-size: 2rem;
 }

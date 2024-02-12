@@ -133,3 +133,44 @@
 .hero-img {
   width: 100%;
 }
+
+/* --- ABOUT US SECTION --- */
+.section-about {
+  background-color: #fffefb;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.about-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.history-container,
+.mission-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.history-container {
+  margin-bottom: 3.2rem;
+}
+
+.history-text p,
+.mission-text p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.history-img {
+  width: 100%;
+  border-radius: 50% 20% / 10% 40%;
+}
+
+.mission-img {
+  width: 100%;
+  border-radius: 10% 40% / 50% 20%;
+}

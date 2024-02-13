@@ -96,8 +96,6 @@
   font-weight: 600;
   padding: 1.4rem 2.8rem;
   border-radius: 10px;
-
-  /* transition: background-color 0.3s; */
   transition: all 0.3s;
 }
 
@@ -143,7 +141,6 @@
 .about-container {
   max-width: 130rem;
   margin: 0 auto;
-  padding: 0 3.2rem;
 }
 
 .history-container,
@@ -173,4 +170,87 @@
 .mission-img {
   width: 100%;
   border-radius: 10% 40% / 50% 20%;
+}
+
+/* --- PETS SECTION --- */
+.section-pets {
+  background-color: #fffbeb;
+  padding: 4.8rem 0 9.6rem 0;
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.pets-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+}
+
+.section-pets .heading-tertiary {
+  color: #fffbeb;
+}
+
+.section-pets p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+.adopt-pets,
+.let-go-pets {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.4rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1.2rem 2.4rem;
+}
+
+.adopt-pets {
+  border-radius: 10% 20% / 10% 20%;
+  background-color: #15803d;
+  color: #fffbeb;
+}
+
+.let-go-pets {
+  border-radius: 20% 10% / 20% 10%;
+  background-color: #172554;
+  color: #fffbeb;
+}
+
+.section-pets .btn:link,
+.section-pets .btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.2rem 2.4rem;
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+  transition: all 0.3s;
+}
+
+.adopt-pets .btn--full:link,
+.adopt-pets .btn--full:visited {
+  background-color: #172554;
+  color: #fffbeb;
+}
+
+.adopt-pets .btn--full:hover,
+.adopt-pets .btn--full:active {
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 2px #fffbeb;
+}
+
+.let-go-pets .btn--full:link,
+.let-go-pets .btn--full:visited {
+  background-color: #15803d;
+  color: #fffbeb;
+}
+
+.let-go-pets .btn--full:hover,
+.let-go-pets .btn--full:active {
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 2px #fffbeb;
 }

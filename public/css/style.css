@@ -274,3 +274,104 @@
   width: 800px;
   height: 450px;
 }
+
+/* --- CONTACT US SECTION --- */
+.section-contact {
+  background-color: #fffbeb;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.contact-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-container {
+  align-self: center;
+  background-color: #15803d;
+  color: #fffbeb;
+  border-radius: 10px;
+  padding: 4.8rem 6.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2.4rem 4.8rem;
+}
+
+.contact-form-container h3 {
+  color: #fffbeb;
+  text-shadow: 1px 1px 2px #15214c;
+  letter-spacing: 0.75px;
+  margin-bottom: 2.4rem;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.textarea-container {
+  grid-column: 1/3;
+}
+
+.form-submit-btn-container {
+  grid-column: 1/3;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.cta-form input,
+.cta-form select,
+.cta-form textarea {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fffefb;
+  color: #15214c;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.cta-form input::placeholder {
+  color: #1b233d;
+}
+
+.cta-form *:focus {
+  outline: solid 2px #2cdd6d;
+}
+
+.submit-btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.2rem 2.4rem;
+  border-radius: 10px;
+  transition: all 0.3s;
+  color: #fffbeb;
+  background-color: #172554;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: rgba(23, 37, 84, 0.8);
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 2px #fffbeb;
+}

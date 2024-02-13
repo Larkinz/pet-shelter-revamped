@@ -97,5 +97,31 @@
         <div class="why-adopt-video-container"><iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/wWw0iQF5Za8?si=TH_-Gx24kqerwAvF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
       </div>
     </section>
+
+    <!-- contact us section -->
+    <section class="section-contact">
+      <div class="contact-container">
+        <h2 class="heading-secondary">Contact us</h2>
+        <div class="contact-form-container">
+          <h3 class="heading-tertiary">Fill in the form and get in contact with us!</h3>
+          <form class="cta-form" action="#">
+            <div><label for="name">Name: (required)</label> <input name="name" type="text" id="name" class="input-field" placeholder="Your name here..." required="" /></div>
+            <div><label for="email">Email:</label> <input name="email" type="email" id="email" class="input-field" placeholder="Your email address here..." /></div>
+            <div><label for="phone">Phone number: (required)</label> <input name="phone" type="tel" id="phone" class="input-field" placeholder="Your phone number here..." required="" /></div>
+            <div>
+              <label for="reason">Reason for inquiry:</label>
+              <select name="reason" id="reason">
+                <option value="adopt" selected="">I'd like to adopt a pet</option>
+                <option value="let-go">I'd like to let go of a pet</option>
+                <option value="information">I need additional information</option>
+                <option value="other">I have a different inquiry</option>
+              </select>
+            </div>
+            <div class="textarea-container"><label for="additional">Additional information:</label> <textarea name="additional" id="additional" class="input-field textarea-field" cols="50" rows="8" placeholder="Provide us with any additional information here..."></textarea></div>
+            <div class="form-submit-btn-container"><button type="submit" class="submit-btn">Submit</button></div>
+          </form>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

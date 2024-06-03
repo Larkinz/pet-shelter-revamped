@@ -95,9 +95,11 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 1;
   font-weight: 400;
+  background-color: #fffbeb;
   color: #15214c;
   min-height: 100vh;
-  background-color: #fffbeb;
+  display: flex;
+  flex-direction: column;
 }
 
 /* --- GENERAL RE-USABLE COMPONENTS --- */

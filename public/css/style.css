@@ -410,6 +410,72 @@
   text-decoration: underline;
 }
 
+/* ----- ADOPT PAGE ----- */
+.adoption-info-container {
+  padding: 4.8rem 0 9.6rem 0;
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8rem;
+}
+
+.adoption-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.pet-circle-container img {
+  box-shadow: rgba(0, 0, 0, 0.3) 0rem 0.6rem 1.2rem;
+}
+
+.adoption-pet-type {
+  border-radius: 50%;
+  border: 4px solid #15803d;
+  width: 18rem;
+  height: 18rem;
+}
+
+.adoption-card-link {
+  display: flex;
+  flex-basis: 100%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.adoption-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.4rem;
+  padding: 1.6rem;
+  border-radius: 10px;
+  border: #1b233d 3px solid;
+  box-shadow: 2px 3px 0px 0px #1b233dd2;
+  transition: 0.3s ease;
+}
+
+.adoption-card:hover,
+.adoption-card:active {
+  transform: scale(1.04);
+  border-color: #15803d;
+  box-shadow: 4px 6px 0px 0px #1b233dd2;
+}
+
+.adoption-card h2 {
+  align-self: center;
+  margin-bottom: 1.6rem;
+}
+
+.adoption-card p {
+  color: #15214c;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
 /* ----- footer ----- */
 footer {
   background-color: #172554;

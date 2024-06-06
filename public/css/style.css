@@ -116,7 +116,7 @@
   background-color: #fffbeb;
   color: #172554;
   /* Trick to add border inside */
-  box-shadow: inset 0 0 0 3px #172554;
+  box-shadow: inset 0 0 0 0.3rem #172554;
 }
 
 .hero-text-box .btn--outline:hover,
@@ -202,7 +202,7 @@
   flex-direction: column;
   align-items: center;
   padding: 2.4rem;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 1.2rem 2.4rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1.2rem 2.4rem;
 }
 
 .adopt-pets {
@@ -238,7 +238,7 @@
 .adopt-pets .btn--full:hover,
 .adopt-pets .btn--full:active {
   /* Trick to add border inside */
-  box-shadow: inset 0 0 0 2px #fffbeb;
+  box-shadow: inset 0 0 0 0.2rem #fffbeb;
 }
 
 .let-go-pets .btn--full:link,
@@ -250,7 +250,7 @@
 .let-go-pets .btn--full:hover,
 .let-go-pets .btn--full:active {
   /* Trick to add border inside */
-  box-shadow: inset 0 0 0 2px #fffbeb;
+  box-shadow: inset 0 0 0 0.2rem #fffbeb;
 }
 
 /* --- WHY ADOPT SECTION --- */
@@ -268,8 +268,8 @@
 
 .why-adopt-video-container {
   align-self: center;
-  width: 800px;
-  height: 450px;
+  width: 80rem;
+  height: 45rem;
 }
 
 /* --- CONTACT US SECTION --- */
@@ -295,7 +295,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2.4rem 4.8rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 2.4rem 4.8rem;
 }
 
 .contact-form-container h3 {
@@ -340,7 +340,7 @@
   background-color: #fffefb;
   color: #15214c;
   border-radius: 5px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.4);
 }
 
 .cta-form input::placeholder {
@@ -363,14 +363,14 @@
   background-color: #172554;
   border: none;
   cursor: pointer;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.4);
   transition: all 0.3s;
 }
 
 .submit-btn:hover {
   background-color: rgba(23, 37, 84, 0.8);
   /* Trick to add border inside */
-  box-shadow: inset 0 0 0 2px #fffbeb;
+  box-shadow: inset 0 0 0 0.2rem #fffbeb;
 }
 
 /* ----- LET GO PAGE ----- */
@@ -452,7 +452,7 @@
   padding: 1.6rem;
   border-radius: 10px;
   border: #1b233d 3px solid;
-  box-shadow: 2px 3px 0px 0px #1b233dd2;
+  box-shadow: 0.2rem 0.3rem 0 0 #1b233dd2;
   transition: 0.3s ease;
 }
 
@@ -460,7 +460,7 @@
 .adoption-card:active {
   transform: scale(1.04);
   border-color: #15803d;
-  box-shadow: 4px 6px 0px 0px #1b233dd2;
+  box-shadow: 0.4rem 0.6rem 0 0 #1b233dd2;
 }
 
 .adoption-card h2 {
@@ -474,6 +474,54 @@
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: -0.5px;
+}
+
+/* ----- PET GALLERY ----- */
+.main-container-pet-gallery {
+  padding: 4.8rem 0 9.6rem 0;
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 6.4rem;
+  row-gap: 4.8rem;
+}
+
+.pet-cards {
+  background-color: #2cdd6d;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0.3rem 2.4rem;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.pet-cards:hover {
+  transform: scale(1.04);
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0.3rem 2.4rem;
+}
+
+.pet-cards-img {
+  width: 100%;
+  height: 60%;
+  margin-bottom: 1.2rem;
+  object-fit: cover;
+}
+
+.pet-cards-contents {
+  color: #172554;
+  padding: 0 1.6rem 1.6rem 1.6rem;
+  text-align: center;
+}
+
+.pet-cards-contents h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.pet-cards-contents p {
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 /* ----- footer ----- */

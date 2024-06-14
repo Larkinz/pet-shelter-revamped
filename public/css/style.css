@@ -225,6 +225,7 @@
   font-weight: 600;
   padding: 1.2rem 2.4rem;
   border-radius: 10px;
+  margin-top: auto;
   margin-bottom: 1.2rem;
   transition: all 0.3s;
 }
@@ -587,4 +588,352 @@ footer {
 
 .footer-socials i:hover {
   color: rgba(44, 221, 109, 0.8);
+}
+
+/* ----- MEDIA QUERIES ----- */
+/* NOTE: 1 rem = 1 em = 16px */
+/* --- 
+1360px (Smaller desktops)
+(84em * 16px = 1360px) 
+--- */
+@media (max-width: 85em) {
+  .header-container,
+  .section-hero,
+  .section-about,
+  .section-pets,
+  .section-why,
+  .section-contact,
+  .section-let-go,
+  .adoption-info-container,
+  .main-container-pet-gallery,
+  .main-container-dog-gallery,
+  .main-container-cat-gallery,
+  .footer-container {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+/* --- 
+1200px (Landscape tablets)
+(75em * 16px = 1200px) 
+--- */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .section-hero,
+  .section-about,
+  .section-pets,
+  .section-why,
+  .section-contact {
+    padding: 3.2rem 2% 6.4rem 2%;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .hero-text-box .btn:link,
+  .hero-text-box .btn:visited {
+    font-size: 1.8rem;
+    padding: 1.2rem 2.4rem;
+  }
+
+  .hero,
+  .history-container,
+  .mission-container,
+  .pets-container,
+  .let-go-container {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+
+  .history-text p,
+  .mission-text p {
+    font-size: 1.6rem;
+  }
+
+  .adopt-pets,
+  .let-go-pets {
+    max-width: 84%;
+  }
+}
+
+/* --- 
+960px (Portrait tablets)
+(60em * 16px = 960px)
+--- */
+@media (max-width: 60em) {
+  /* --- 
+  (1 REM = 10px)
+  8px / 16 = 50%
+  --- */
+  html {
+    font-size: 50%;
+  }
+
+  .adopt-pets,
+  .let-go-pets {
+    max-width: 96%;
+  }
+
+  .why-adopt-video-container {
+    width: 74%;
+  }
+}
+
+/* --- 
+768px (Small tablets)
+(48em * 16px = 768px)
+--- */
+@media (max-width: 48em) {
+  .header {
+    justify-content: center;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .hero-img {
+    width: 66%;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .history-container,
+  .mission-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .history-img-box {
+    width: 100%;
+    text-align: center;
+  }
+
+  .history-img {
+    width: 66%;
+  }
+
+  .mission-img-box {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mission-img {
+    width: 66%;
+  }
+
+  .mission-text {
+    grid-row: 1;
+  }
+
+  .pets-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .adopt-pets,
+  .let-go-pets {
+    border-radius: 10px;
+  }
+
+  .heading-tertiary {
+    letter-spacing: -0.1px;
+  }
+
+  .why-adopt-video-container {
+    width: 90%;
+    height: 36rem;
+  }
+}
+
+/* --- 
+624px (Smallest tablets)
+(39em * 16px = 624px)
+--- */
+@media (max-width: 39em) {
+  /* --- 
+  (1 REM = 10px)
+  7px / 16 = 43,75%
+  --- */
+  html {
+    font-size: 43.75%;
+  }
+
+  .hero,
+  .history-container,
+  .mission-container,
+  .pets-container,
+  .let-go-container {
+    column-gap: 3.2rem;
+    row-gap: 4.8rem;
+  }
+
+  .hero-description {
+    margin-bottom: 2.4rem;
+  }
+
+  .section-hero,
+  .section-about,
+  .section-pets,
+  .section-why,
+  .section-contact {
+    padding: 3.2rem 2% 4.8rem 2%;
+  }
+
+  .adopt-pets,
+  .let-go-pets {
+    padding: 2.8rem;
+  }
+
+  .why-adopt-video-container {
+    width: 96%;
+  }
+
+  .section-contact {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .contact-form-container h3 {
+    text-align: center;
+  }
+
+  .contact-form-container {
+    padding: 3.2rem 3.2rem;
+  }
+
+  .cta-form input,
+  .cta-form select,
+  .cta-form textarea {
+    font-size: 1.4rem;
+  }
+}
+
+/* --- 
+448px (Mobile phones)
+(28em * 16px = 448px) 
+--- */
+@media (max-width: 28em) {
+  .hero-img {
+    width: 78%;
+  }
+
+  .section-hero,
+  .section-about,
+  .section-pets,
+  .section-why {
+    padding: 2.4rem 2% 3.2rem 2%;
+  }
+
+  .hero,
+  .history-container,
+  .mission-container,
+  .pets-container,
+  .let-go-container {
+    row-gap: 3.2rem;
+  }
+
+  .heading-secondary {
+    margin-bottom: 2.4rem;
+  }
+
+  .heading-tertiary {
+    margin-bottom: 1.2rem;
+  }
+
+  .adopt-pets,
+  .let-go-pets {
+    padding: 1.6rem;
+  }
+
+  .section-pets .btn:link,
+  .section-pets .btn:visited {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+  }
+
+  .why-adopt-video-container {
+    height: 28rem;
+  }
+
+  .cta-form input,
+  .cta-form select,
+  .cta-form textarea {
+    font-size: 1.2rem;
+  }
+
+  .submit-btn {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 3.2rem;
+    padding: 3.2rem 0 9.6rem 0;
+  }
+
+  .footer-heading {
+    font-size: 2.4rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .footer-address {
+    font-size: 2rem;
+  }
+
+  .footer-nav a {
+    font-size: 2rem;
+  }
+
+  .footer-social-links {
+    margin-top: 1.6rem;
+    gap: 3.6rem;
+  }
+
+  .footer-socials i {
+    font-size: 4.2rem;
+  }
+}
+
+/* --- 
+336px (Small mobile phones)
+(21em * 16px = 336px) 
+--- */
+@media (max-width: 21em) {
+  /* --- 
+  (1 REM = 10px)
+  6px / 16 = 37,5%
+  --- */
+  html {
+    font-size: 37.5%;
+  }
 }

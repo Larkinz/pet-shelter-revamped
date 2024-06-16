@@ -411,6 +411,11 @@
   text-decoration: underline;
 }
 
+.let-go-img {
+  width: 100%;
+  border-radius: 50% 20% / 10% 40%;
+}
+
 /* ----- ADOPT PAGE ----- */
 .adoption-info-container {
   padding: 4.8rem 0 9.6rem 0;
@@ -696,6 +701,10 @@ footer {
   .why-adopt-video-container {
     width: 74%;
   }
+
+  .section-let-go {
+    padding: 3.2rem 2% 6.4rem 2%;
+  }
 }
 
 /* --- 
@@ -771,6 +780,25 @@ footer {
     width: 90%;
     height: 36rem;
   }
+
+  .let-go-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    row-gap: 3.2rem;
+  }
+
+  .let-go-img {
+    width: 66%;
+  }
+
+  .let-go-text-box,
+  .let-go-img-box {
+    text-align: center;
+  }
+
+  .let-go-text-box p {
+    margin-bottom: 2.4rem;
+  }
 }
 
 /* --- 
@@ -789,8 +817,7 @@ footer {
   .hero,
   .history-container,
   .mission-container,
-  .pets-container,
-  .let-go-container {
+  .pets-container {
     column-gap: 3.2rem;
     row-gap: 4.8rem;
   }
@@ -892,6 +919,18 @@ footer {
   .submit-btn {
     font-size: 1.8rem;
     padding: 1rem 2rem;
+  }
+
+  .let-go-img {
+    width: 78%;
+  }
+
+  .let-go-text-box p {
+    margin-bottom: 1.2rem;
+  }
+
+  .section-let-go {
+    padding: 2.4rem 2% 4.8rem 2%;
   }
 
   .footer-container {

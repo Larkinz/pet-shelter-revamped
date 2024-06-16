@@ -195,3 +195,85 @@ a.btn.btn--github {
   margin-right: 0.4rem;
   font-size: 2rem;
 }
+
+/* ----- MEDIA QUERIES ----- */
+/* NOTE: 1 rem = 1 em = 16px */
+/* --- 
+1200px (Landscape tablets)
+(75em * 16px = 1200px) 
+--- */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* --- 
+960px (Portrait tablets)
+(60em * 16px = 960px)
+--- */
+@media (max-width: 60em) {
+  /* --- 
+  (1 REM = 10px)
+  8px / 16 = 50%
+  --- */
+  html {
+    font-size: 50%;
+  }
+}
+
+/* --- 
+624px (Smallest tablets)
+(39em * 16px = 624px)
+--- */
+@media (max-width: 39em) {
+  /* --- 
+  (1 REM = 10px)
+  7px / 16 = 43,75%
+  --- */
+  html {
+    font-size: 43.75%;
+  }
+}
+
+/* --- 
+448px (Mobile phones)
+(28em * 16px = 448px) 
+--- */
+@media (max-width: 28em) {
+  main {
+    padding: 6.4rem 1.6rem 0 1.6rem;
+  }
+
+  main h1 {
+    font-size: 3.6rem;
+    margin-bottom: 2.4rem;
+  }
+
+  main h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .btn--full {
+    font-size: 2.4rem;
+  }
+}
+
+/* --- 
+336px (Small mobile phones)
+(21em * 16px = 336px) 
+--- */
+@media (max-width: 21em) {
+  /* --- 
+  (1 REM = 10px)
+  6px / 16 = 37,5%
+  --- */
+  html {
+    font-size: 37.5%;
+  }
+
+  main {
+    padding: 6.4rem 2% 0 2%;
+  }
+}

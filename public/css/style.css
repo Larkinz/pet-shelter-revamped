@@ -617,6 +617,10 @@ footer {
     padding-left: 2%;
     padding-right: 2%;
   }
+
+  .pet-cards-img {
+    height: 50%;
+  }
 }
 
 /* --- 
@@ -704,6 +708,30 @@ footer {
 
   .section-let-go {
     padding: 3.2rem 2% 6.4rem 2%;
+  }
+
+  .adoption-info-container {
+    gap: 6.4rem;
+  }
+
+  .main-container-pet-gallery,
+  .main-container-dog-gallery,
+  .main-container-cat-gallery {
+    padding: 4.8rem 2% 8rem 2%;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 4.8rem;
+  }
+
+  .pet-cards-img {
+    height: 55%;
+  }
+
+  .pet-cards-contents h4 {
+    font-size: 2rem;
+  }
+
+  .pet-cards-contents p {
+    font-size: 1.6rem;
   }
 }
 
@@ -799,6 +827,32 @@ footer {
   .let-go-text-box p {
     margin-bottom: 2.4rem;
   }
+
+  .adoption-info-container {
+    padding: 3.2rem 20% 6.4rem 20%;
+    gap: 4.8rem;
+  }
+
+  .adoption-info-container {
+    grid-template-columns: 1fr;
+  }
+
+  .adoption-pet-type {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .adoption-card {
+    margin-top: 1.6rem;
+  }
+
+  .adoption-card p {
+    font-size: 1.8rem;
+  }
+
+  .pet-cards-img {
+    height: 44%;
+  }
 }
 
 /* --- 
@@ -860,6 +914,35 @@ footer {
   .cta-form select,
   .cta-form textarea {
     font-size: 1.4rem;
+  }
+
+  .adoption-info-container {
+    padding: 3.2rem 16% 6.4rem 16%;
+  }
+
+  .main-container-pet-gallery,
+  .main-container-dog-gallery,
+  .main-container-cat-gallery {
+    padding: 4.8rem 2% 8rem 2%;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4.8rem;
+    row-gap: 3.2rem;
+  }
+
+  .pet-cards-img {
+    height: 52%;
+  }
+
+  .pet-cards-contents {
+    padding: 0 1.2rem 3.2rem 1.2rem;
+  }
+
+  .pet-cards-contents h4 {
+    font-size: 2rem;
+  }
+
+  .pet-cards-contents p {
+    font-size: 1.8rem;
   }
 }
 
@@ -960,6 +1043,35 @@ footer {
 
   .footer-socials i {
     font-size: 4.2rem;
+  }
+
+  .adoption-info-container {
+    padding: 3.2rem 4% 6.4rem 4%;
+  }
+
+  .main-container-pet-gallery,
+  .main-container-dog-gallery,
+  .main-container-cat-gallery {
+    grid-template-columns: 1fr;
+    padding-left: 8%;
+    padding-right: 8%;
+    row-gap: 6.4rem;
+  }
+
+  .pet-cards-img {
+    height: 66%;
+  }
+
+  .pet-cards-contents {
+    padding: 0 2.4rem 4.8rem 2.4rem;
+  }
+
+  .pet-cards-contents h4 {
+    font-size: 2.4rem;
+  }
+
+  .pet-cards-contents p {
+    font-size: 2rem;
   }
 }
 

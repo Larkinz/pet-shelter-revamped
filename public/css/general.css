@@ -129,3 +129,10 @@ body {
   line-height: 1.2;
   margin-bottom: 1.6rem;
 }
+
+.anchor {
+  display: block;
+  height: 8rem;
+  margin-top: -8rem;
+  visibility: hidden;
+}

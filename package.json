@@ -1,12 +1,12 @@
 {
-  "name": "pet shelter revamped",
+  "name": "pet-shelter-revamped",
   "author": "",
   "version": "",
   "description": "",
   "scripts": {
-       "start":"serve",
-  }
+    "start": "serve"
+  },
   "dependencies": {
-       "serve":"^11.3.2"
+    "serve": "^11.3.2"
   }
 }

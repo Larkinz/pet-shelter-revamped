@@ -1,10 +1,12 @@
 # Pet shelter revamped
 
-View live version of the website [here](placeholder).
+View live version of the website [here](https://pet-shelter-revamped-9ae12c6ada43.herokuapp.com/).
 
 This website is a revamped version of [my original first milestone project](https://github.com/Larkinz/pet-shelter-project) for the Code Institute course.
 
 This revamp was mainly done to test my improvements in HTML, CSS, and UI/UX design.
+
+![Website example](wireframes/site_mockup.png)
 
 ---
 
